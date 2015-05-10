@@ -5,13 +5,38 @@
       <img src="/images/logo-small.jpg" class="img-responsive" />
     </div>
   </div>
+
+   <div class="row">
+    <div class="col-lg-4">
+      <h3 class="section-heading">Who Are We?</h3>
+      <p class="about-text">The Jamroom is a music and audio production house established by music composer-producer duo Nariman Khambata and Rahul Pais. We specialize in producing music for television commercials, radio spots, films, games, channel indents and albums over a wide array of genres with varied musical styles.</p>
+    </div>
+    {% for person in page.person-profiles %}
+    <div class="col-lg-4 person-profile">
+      <img class="img" src="/images/{{person.img-src}}" alt="Generic placeholder image" width="300" height="300">
+      <h2>{{ person.name }}</h2>
+      
+    </div><!-- /.col-lg-6 -->
+    {% endfor %}
+  </div><!-- /.row -->
 </div>
+
+
+
+
+</div>
+
+ <br /><hr /><br /><br />
+
+ <h1 class="section-heading"> REEL </h1>
+ <br />
 
 <div class="container">
   <!-- START THE FEATURETTES -->
   <div class="row featurette">
 
     <div class="col-xs-12">
+      <h3 class="section-heading">TV Commercials and Promos</h3>
       <div class="jcarousel-wrapper">
         <div class="jcarousel">
             <ul class="yt-container">
