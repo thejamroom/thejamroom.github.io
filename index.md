@@ -1,8 +1,4 @@
 ---
-title: Hello, World!
+title: Home!
 layout: default
 ---
-
-# Hello World
-
-Natasha has text. And some more text
