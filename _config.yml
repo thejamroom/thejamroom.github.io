@@ -1,0 +1,10 @@
+name: "The Jamroom"
+description: ""
+keywords: "Rahul Pais, Nariman Khambata"
+
+# paginate: 10
+
+url: http://thejamroom.github.io/
+
+markdown: rdiscount
+permalink: pretty
