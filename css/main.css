@@ -12,8 +12,25 @@
   font-weight: bold;
   margin-bottom: 10px; }
 
-.navbar-brand {
-  padding: 0;
-  margin: 0; }
+.navbar-inverse a.navbar-brand {
+  color: white;
+  cursor: default; }
+  .navbar-inverse a.navbar-brand:hover {
+    color: white; }
+
+.navbar {
+  margin-bottom: 0; }
+
+.carousel-inner .active.left {
+  left: -33%; }
+
+.carousel-inner .next {
+  left: 33%; }
+
+.carousel-inner .prev {
+  left: -33%; }
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none; }
 
 /*# sourceMappingURL=main.css.map */

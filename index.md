@@ -1,9 +1,14 @@
 ---
 title: Home
 layout: home
+nav-url: '/'
+
 view-reel: "View Reel"
+view-reel-url: '/reel'
+
 about-title: "Who Are We?"
 about-text: The Jamroom is a music and audio production house established by music composer-producer duo Nariman Khambata and Rahul Pais. We specialize in producing music for television commercials, radio spots, films, games, channel indents and albums over a wide array of genres with varied musical styles.
+
 person-profiles:
   - name: Nariman Khambata
     img-src: nariman.jpg

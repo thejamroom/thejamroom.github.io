@@ -15,7 +15,14 @@
 	margin-bottom: 10px;
 }
 
-.navbar-brand {
-	padding: 0;
-	margin: 0;
+.navbar-inverse a.navbar-brand {
+	color: white;
+	cursor: default;
+	&:hover{
+		color: white;
+	}
+}
+
+.navbar {
+	margin-bottom: 0;
 }
