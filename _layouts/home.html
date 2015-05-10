@@ -53,6 +53,7 @@
   <div class="row">
   	<p class="about-text"> {{ page.about-text }} </p>
   	{% for person in page.person-profiles %}
+  	<br />
     <div class="col-lg-6 person-profile">
       <img class="img-circle" src="images/{{person.img-src}}" alt="Generic placeholder image" width="300" height="300">
       <h2>{{ person.name }}</h2>
